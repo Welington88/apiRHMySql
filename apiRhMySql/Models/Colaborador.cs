@@ -25,6 +25,7 @@ namespace apiRhMySql.Models
 
         [Required(ErrorMessage = " O Campo {0} é Obrigatório!")]
         [DisplayFormat(DataFormatString = "{0:(###)-####-####}", ApplyFormatInEditMode = true)]
+        [StringLength(20, ErrorMessage = " O Campo {0} pode ter no máximo {1} e minimo {2} caracteres ", MinimumLength = 2)]
         [DataType(DataType.PhoneNumber)]
         public String Telefone { get; set; }
 

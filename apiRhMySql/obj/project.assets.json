@@ -7889,7 +7889,7 @@
       "outputPath": "/Users/welingtonmarquezini/Projects/apiRhMySql/apiRhMySql/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/welingtonmarquezini/.config/NuGet/NuGet.Config"
+        "/Users/welingtonmarquezini/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
