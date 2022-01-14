@@ -1,17 +1,17 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using apiRhMySql.Context;
 using apiRhMySql.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace apiRhMySql.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ColaboradorController : ControllerBase
     {
         private readonly DataContext _context;

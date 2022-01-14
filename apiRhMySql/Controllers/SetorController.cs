@@ -5,11 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using apiRhMySql.Context;
 using apiRhMySql.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace apiRhMySql.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SetorController : ControllerBase
     {
         private readonly DataContext _context;

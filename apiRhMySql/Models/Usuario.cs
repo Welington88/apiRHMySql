@@ -17,6 +17,7 @@ namespace apiRhMySql.Models
         public int IdUsuario { get; set; }
 
         [Required]
+        [Column("Nome", Order = 2, TypeName = "varchar(50)")]
         public String Nome { get; set; }
 
         [Required]

@@ -4,8 +4,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using apiRH.Context;
-using apiRH.Models;
+using apiRhMySql.Context;
+using apiRhMySql.Models;
 using Dapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace apiRH.Controllers
+namespace apiRhMySql.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -29,7 +29,7 @@ namespace apiRH.Controllers
         }
 
         #region Query
-        private String query = "SELECT  IdUsuario, Nome, Senha From Usuario";
+        private String query = "SELECT `IdUsuario`, `Nome`, `Senha` FROM `Usuario`";
         #endregion
 
         private List<Usuario> listaUsuarios() {

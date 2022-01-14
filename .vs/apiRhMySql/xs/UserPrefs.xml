@@ -1,17 +1,12 @@
 ﻿<Properties StartupConfiguration="{90A201FC-A34F-4DA0-BDA9-9664796CD5C2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="apiRhMySql/Startup.cs">
-    <Files>
-      <File FileName="apiRhMySql/Startup.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="apiRhMySql" expanded="True">
             <Node name="apiRhMySql" expanded="True">
-              <Node name="Context" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

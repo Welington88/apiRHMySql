@@ -99,6 +99,26 @@ namespace apiRhMySql.Migrations
                     b.ToTable("Setor");
                 });
 
+            modelBuilder.Entity("apiRhMySql.Models.Usuario", b =>
+                {
+                    b.Property<int>("IdUsuario")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("Nome");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("IdUsuario");
+
+                    b.ToTable("Usuario");
+                });
+
             modelBuilder.Entity("apiRhMySql.Models.Cargo", b =>
                 {
                     b.HasOne("apiRhMySql.Models.Setor", "Setor")
