@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "824UWmkkzvhTpEwG3jJhOWeK36UWhcppDXTVTzia5DT/b7cYDrHFj2/IqturmNA+n40paXTzwXcprHl93VuM1A==",
+  "dgSpecHash": "XoEgsLNmhGoOlUC0hupC/FsV++2khpmHu1UWOFIqFQfSOxgq0V/NzuWsGZhkvIDNyXbSkv8u6oXF/WpEyuFgIg==",
   "success": true,
   "projectFilePath": "/Users/welingtonmarquezini/Projects/apiRhMySql/apiRhMySql/apiRhMySql.csproj",
   "expectedPackageFiles": [
@@ -151,7 +151,10 @@
     "/Users/welingtonmarquezini/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/welingtonmarquezini/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/welingtonmarquezini/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/welingtonmarquezini/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/Users/welingtonmarquezini/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/Users/welingtonmarquezini/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/welingtonmarquezini/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/welingtonmarquezini/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

@@ -17,6 +17,7 @@ namespace apiRhMySql.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class TokenController : ControllerBase
     {
         private readonly IConfiguration _configuration;
@@ -32,6 +33,7 @@ namespace apiRhMySql.Controllers
         private String query = "SELECT `IdUsuario`, `Nome`, `Senha` FROM `Usuario`";
         #endregion
 
+        [AllowAnonymous]
         private List<Usuario> listaUsuarios() {
 
             List<Usuario> usuarios = new List<Usuario>();

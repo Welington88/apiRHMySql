@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
@@ -32,7 +31,7 @@ namespace apiRhMySql
             }));
 
             string mySqlConnection = Configuration.GetConnectionString("ApiConnection");
-
+            //Database = localdb; Data Source = 127.0.0.1:52712; User Id = azure; Password = 6#vWHD_$
             services.AddDbContext<DataContext>(options =>
                        options.UseMySql(mySqlConnection,
                                  ServerVersion.AutoDetect(mySqlConnection)
@@ -69,10 +68,10 @@ namespace apiRhMySql
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            /*if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
+            }*/
 
             app.UseSwagger();
 
